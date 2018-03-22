@@ -20,7 +20,10 @@
         <activity android:name=".activity.widgetActivity.DialogActivity" />
         <activity android:name=".activity.customDrawingActivity.CustomDrawingActivity" />
         <activity android:name=".activity.customDrawingActivity.XmlCustomDrawingActivity" />
-        <activity android:name=".activity.customDrawingActivity.RingActivity"></activity>
+        <activity android:name=".activity.customDrawingActivity.RingActivity" />
+        <activity android:name=".activity.customDrawingActivity.RectangleActivity" />
+        <activity android:name=".activity.customDrawingActivity.OvalActivity" />
+        <activity android:name=".activity.customDrawingActivity.LineActivity"></activity>
     </application>
 
 </manifest>

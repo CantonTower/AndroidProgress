@@ -12,4 +12,25 @@
         android:text="环形基础绘图"
         />
 
+    <Button
+        android:id="@+id/btn_rectangle_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="矩形基础绘图"
+        />
+
+    <Button
+        android:id="@+id/btn_oval_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆形基础绘图"
+        />
+
+    <Button
+        android:id="@+id/btn_line_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线条基础绘图"
+        />
+
 </LinearLayout>
