@@ -6,18 +6,10 @@
     >
 
     <Button
-        android:id="@+id/btn_widget"
+        android:id="@+id/btn_ring_drawing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="控件"
+        android:text="环形基础绘图"
         />
-
-    <Button
-        android:id="@+id/btn_custom_drawing"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="自定义绘图"
-        />
-
 
 </LinearLayout>

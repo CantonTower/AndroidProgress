@@ -16,8 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.WidgetActivity" />
-        <activity android:name=".activity.DialogActivity"></activity>
+        <activity android:name=".activity.widgetActivity.WidgetActivity" />
+        <activity android:name=".activity.widgetActivity.DialogActivity" />
+        <activity android:name=".activity.customDrawingActivity.CustomDrawingActivity" />
+        <activity android:name=".activity.customDrawingActivity.XmlCustomDrawingActivity" />
+        <activity android:name=".activity.customDrawingActivity.RingActivity"></activity>
     </application>
 
 </manifest>

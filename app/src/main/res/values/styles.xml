@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="sys_public_dialog_fullscreen" >
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnchanged</item>
+    </style>
+
 </resources>

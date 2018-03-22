@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import cn.longrise.www.androidprogress.activity.WidgetActivity;
+import cn.longrise.www.androidprogress.activity.customDrawingActivity.CustomDrawingActivity;
+import cn.longrise.www.androidprogress.activity.widgetActivity.WidgetActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button mbtnWidget;
+    private Button mbtnCustomDrawing;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,16 +23,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initView() {
         mbtnWidget = (Button) findViewById(R.id.btn_widget);
+        mbtnCustomDrawing = (Button) findViewById(R.id.btn_custom_drawing);
     }
 
     private void initClick() {
         mbtnWidget.setOnClickListener(this);
+        mbtnCustomDrawing.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         if (v == mbtnWidget) {
             startActivity(new Intent(this, WidgetActivity.class));
+        } else if (v == mbtnCustomDrawing) {
+            startActivity(new Intent(this, CustomDrawingActivity.class));
         }
     }
 }

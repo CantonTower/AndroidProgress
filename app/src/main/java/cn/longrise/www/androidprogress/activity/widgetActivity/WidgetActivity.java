@@ -1,4 +1,4 @@
-package cn.longrise.www.androidprogress.activity;
+package cn.longrise.www.androidprogress.activity.widgetActivity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
