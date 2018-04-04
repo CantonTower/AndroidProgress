@@ -6,18 +6,11 @@
     >
 
     <Button
-        android:id="@+id/btn_dialog"
+        android:id="@+id/btn_view_flipper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dialog"
+        android:text="ViewFlipper"
         android:textAllCaps="false"
-        />
-
-    <Button
-        android:id="@+id/btn_switch_interface"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="切换界面"
         />
 
 </LinearLayout>

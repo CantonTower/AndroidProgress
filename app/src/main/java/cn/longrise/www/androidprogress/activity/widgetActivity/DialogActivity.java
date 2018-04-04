@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import cn.longrise.www.androidprogress.R;
+import cn.longrise.www.androidprogress.utils.FullScreenDialog;
 
 public class DialogActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,6 +26,7 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
     private Button mbtnMultiChoiceAlertDialog;
     private Button mbtnSingleChoiceAlertDialog;
     private Button mbtnItemAlertDialog;
+    private Button mbtnShowFullScreenDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,7 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
         mbtnMultiChoiceAlertDialog.setOnClickListener(this);
         mbtnSingleChoiceAlertDialog.setOnClickListener(this);
         mbtnItemAlertDialog.setOnClickListener(this);
+        mbtnShowFullScreenDialog.setOnClickListener(this);
     }
 
     private void initView() {
@@ -52,6 +55,7 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
         mbtnMultiChoiceAlertDialog = (Button) findViewById(R.id.btn_multi_choice_alert_dialog);
         mbtnSingleChoiceAlertDialog = (Button) findViewById(R.id.btn_single_choice_alert_dialog);
         mbtnItemAlertDialog = (Button) findViewById(R.id.btn_item_alert_dialog);
+        mbtnShowFullScreenDialog = (Button) findViewById(R.id.btn_show_full_screen_dialog);
     }
 
     @Override
@@ -70,7 +74,14 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
             showSingleChoiceAlertDialog();
         } else if (v == mbtnItemAlertDialog) {
             showItemAlertDialog();
+        } else if (v == mbtnShowFullScreenDialog) {
+            showFullScreenDialog();
         }
+    }
+
+    private void showFullScreenDialog() {
+        FullScreenDialog dialog = new FullScreenDialog(this, R.layout.widget_full_screen_dialog);
+        dialog.show();
     }
 
     private void showItemAlertDialog() {

@@ -23,7 +23,11 @@
         <activity android:name=".activity.customDrawingActivity.RingActivity" />
         <activity android:name=".activity.customDrawingActivity.RectangleActivity" />
         <activity android:name=".activity.customDrawingActivity.OvalActivity" />
-        <activity android:name=".activity.customDrawingActivity.LineActivity"></activity>
+        <activity android:name=".activity.customDrawingActivity.LineActivity" />
+        <activity android:name=".activity.widgetActivity.SwitchInterfaceActivity" />
+        <activity android:name=".activity.widgetActivity.ViewFlipperActivity"
+            android:theme="@style/MyFullScreenTheme"
+            />
     </application>
 
 </manifest>

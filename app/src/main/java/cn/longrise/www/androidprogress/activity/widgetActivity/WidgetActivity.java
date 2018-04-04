@@ -10,6 +10,7 @@ import cn.longrise.www.androidprogress.R;
 
 public class WidgetActivity extends AppCompatActivity implements View.OnClickListener {
     private Button mbtnDialog;
+    private Button mbtnSwitchInterface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,16 +22,20 @@ public class WidgetActivity extends AppCompatActivity implements View.OnClickLis
 
     private void initClick() {
         mbtnDialog.setOnClickListener(this);
+        mbtnSwitchInterface.setOnClickListener(this);
     }
 
     private void initView() {
         mbtnDialog = (Button) findViewById(R.id.btn_dialog);
+        mbtnSwitchInterface = (Button) findViewById(R.id.btn_switch_interface);
     }
 
     @Override
     public void onClick(View v) {
         if (v == mbtnDialog) {
             startActivity(new Intent(this, DialogActivity.class));
+        } else if (v == mbtnSwitchInterface) {
+            startActivity(new Intent(this, SwitchInterfaceActivity.class));
         }
     }
 }

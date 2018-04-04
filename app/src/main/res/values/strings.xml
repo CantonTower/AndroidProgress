@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndroidProgress</string>
+    <string name="widget_full_screen_dialog_text">"在写程序的过程中，经常会发现某些构造方法里面有AttributeSet
+        和int型的Theme。AttributeSet表示的是attrs，attrs主要是在attrs文件中创建，并在xml中赋予其值，然后
+        在构造方法里面将xml中赋予的值，传入类中，主要是使用在自定义View中。int型的Theme表示的是style中的主题，
+        这些主题将多个item集合起来，就形成了一些有用的Theme。比如此程序中Dialog的全屏显示，dialog的构造方法
+        super中则是使用的Theme。AndroidManifest中的AppTheme也是使用的是Theme"</string>
 </resources>
