@@ -2,21 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     android:orientation="vertical"
     >
 
-    <Button
-        android:id="@+id/btn_xml_custom_drawing"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="XML基础绘图"
+        android:text="此类获取照相机权限，开发中可参照此代码编写。"
+        android:textSize="14sp"
         />
 
     <Button
-        android:id="@+id/btn_code_custom_drawing"
+        android:id="@+id/btn_user_camera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="代码基础制图"
+        android:text="获取照相机权限，并拍照"
         />
 
 </LinearLayout>

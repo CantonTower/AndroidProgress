@@ -2,14 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.longrise.www.androidprogress">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
+        android:name=".AndroidProgressApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,17 +23,27 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.widgetActivity.WidgetActivity" />
-        <activity android:name=".activity.widgetActivity.DialogActivity" />
+        <activity android:name=".activity.widgetActivity.dialogActivity.DialogActivity" />
         <activity android:name=".activity.customDrawingActivity.CustomDrawingActivity" />
-        <activity android:name=".activity.customDrawingActivity.XmlCustomDrawingActivity" />
-        <activity android:name=".activity.customDrawingActivity.RingActivity" />
-        <activity android:name=".activity.customDrawingActivity.RectangleActivity" />
-        <activity android:name=".activity.customDrawingActivity.OvalActivity" />
-        <activity android:name=".activity.customDrawingActivity.LineActivity" />
-        <activity android:name=".activity.widgetActivity.SwitchInterfaceActivity" />
-        <activity android:name=".activity.widgetActivity.ViewFlipperActivity"
-            android:theme="@style/MyFullScreenTheme"
-            />
+        <activity android:name=".activity.customDrawingActivity.xmlCustomDrawingActivity.XmlCustomDrawingActivity" />
+        <activity android:name=".activity.customDrawingActivity.xmlCustomDrawingActivity.RingActivity" />
+        <activity android:name=".activity.customDrawingActivity.xmlCustomDrawingActivity.RectangleActivity" />
+        <activity android:name=".activity.customDrawingActivity.xmlCustomDrawingActivity.OvalActivity" />
+        <activity android:name=".activity.customDrawingActivity.xmlCustomDrawingActivity.LineActivity" />
+        <activity android:name=".activity.widgetActivity.switchInterface.SwitchInterfaceActivity" />
+        <activity
+            android:name=".activity.widgetActivity.switchInterface.ViewFlipperActivity"
+            android:theme="@style/MyFullScreenTheme" />
+        <activity android:name=".activity.widgetActivity.buttonActivity.ButtonActivity" />
+        <activity android:name=".activity.widgetActivity.buttonActivity.SimpleCheckBoxAndRadioButton" />
+        <activity android:name=".activity.widgetActivity.barActivity.BarActivity" />
+        <activity android:name=".activity.widgetActivity.barActivity.OriginalBarActivity" />
+        <activity android:name=".activity.databaseActivity.DataBaseActivity" />
+        <activity android:name=".activity.databaseActivity.SQLDataBaseActivity" />
+        <activity android:name=".activity.databaseActivity.TraditionDataBaseActivity" />
+        <activity android:name=".activity.permission.PermissionActivity" />
+        <activity android:name=".activity.callSystemFunction.CallSystemFunctionActivity" />
+        <activity android:name=".activity.customDrawingActivity.codeCustomDrawing.CodeCustomDrawingActivity"></activity>
     </application>
 
 </manifest>

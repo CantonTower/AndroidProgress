@@ -3,20 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     >
 
-    <Button
-        android:id="@+id/btn_xml_custom_drawing"
+    <ProgressBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="XML基础绘图"
         />
 
-    <Button
-        android:id="@+id/btn_code_custom_drawing"
+    <ProgressBar
+        android:id="@+id/pb_original"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="代码基础制图"
+        android:layout_marginTop="20dp"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
         />
+
+    <TextView
+        android:id="@+id/tv_progressBar_original"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        />
+
 
 </LinearLayout>

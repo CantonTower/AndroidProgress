@@ -1,4 +1,4 @@
-package cn.longrise.www.androidprogress.activity.customDrawingActivity;
+package cn.longrise.www.androidprogress.activity.customDrawingActivity.xmlCustomDrawingActivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

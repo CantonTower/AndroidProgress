@@ -6,37 +6,31 @@
     >
 
     <Button
-        android:id="@+id/btn_widget"
+        android:id="@+id/btn_call"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="控件"
+        android:text="打电话"
         />
 
     <Button
-        android:id="@+id/btn_custom_drawing"
+        android:id="@+id/btn_dial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="自定义绘图"
+        android:text="调取拨号键盘"
         />
 
     <Button
-        android:id="@+id/btn_use_database"
+        android:id="@+id/btn_call_camera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="数据库的使用"
+        android:text="调用系统相机"
         />
 
-    <Button
-        android:id="@+id/btn_permission"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/iv_camera_photo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="6.0权限管理"
+        android:src="@mipmap/ic_launcher"
         />
 
-    <Button
-        android:id="@+id/btn_call_system_function"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="调用系统功能"
-        />
 </LinearLayout>

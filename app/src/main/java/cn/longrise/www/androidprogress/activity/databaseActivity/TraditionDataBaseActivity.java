@@ -1,15 +1,15 @@
-package cn.longrise.www.androidprogress.activity.customDrawingActivity;
+package cn.longrise.www.androidprogress.activity.databaseActivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import cn.longrise.www.androidprogress.R;
 
-public class LineActivity extends AppCompatActivity {
+public class TraditionDataBaseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_line);
+        setContentView(R.layout.activity_tradition_data_base);
     }
 }

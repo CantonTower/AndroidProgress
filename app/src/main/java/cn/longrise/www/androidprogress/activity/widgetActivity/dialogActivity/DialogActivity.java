@@ -1,4 +1,4 @@
-package cn.longrise.www.androidprogress.activity.widgetActivity;
+package cn.longrise.www.androidprogress.activity.widgetActivity.dialogActivity;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

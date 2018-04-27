@@ -19,4 +19,54 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
+    <!-- 在进行自定义View时，下面<attr name=***，***的命名都不可以出现重名。因此下面的MyWatch的每一个命名，都要加myWatch -->
+    <declare-styleable name="MyTextView">
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyWatch">
+        <attr name="myWatchRadios" format="dimension"/>
+        <attr name="myWatchPadding" format="dimension"/>
+        <attr name="myWatchTextSize" format="dimension"/>
+        <attr name="myWatchHourPointWidth" format="dimension"/>
+        <attr name="myWatchMinutePointWidth" format="dimension"/>
+        <attr name="myWatchSecondPointWidth" format="dimension"/>
+        <attr name="myWatchPointRadios" format="dimension"/>
+        <attr name="myWatchPointEndLength" format="dimension"/>
+        <attr name="myWatchColorLong" format="color"/>
+        <attr name="myWatchColorShort" format="color"/>
+        <attr name="myWatchHourPointColor" format="color"/>
+        <attr name="myWatchMinutePointColor" format="color"/>
+        <attr name="myWatchSecondPointColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="WatchBoard">
+        <!--表盘的边距-->
+        <attr name="wb_padding" format="dimension"/>
+        <!--表盘文字大小-->
+        <attr name="wb_text_size" format="dimension"/>
+        <!--时针的宽度-->
+        <attr name="wb_hour_pointer_width" format="dimension"/>
+        <!--分针的宽度-->
+        <attr name="wb_minute_pointer_width" format="dimension"/>
+        <!--秒针的宽度-->
+        <attr name="wb_second_pointer_width" format="dimension"/>
+        <!--指针圆角值-->
+        <attr name="wb_pointer_corner_radius" format="dimension"/>
+        <!--指针超过中心点的长度-->
+        <attr name="wb_pointer_end_length" format="dimension"/>
+        <!--时刻刻度颜色-->
+        <attr name="wb_scale_long_color" format="color"/>
+        <!--非时刻刻度颜色-->
+        <attr name="wb_scale_short_color" format="color"/>
+        <!--时针颜色-->
+        <attr name="wb_hour_pointer_color" format="color"/>
+        <!--分针颜色-->
+        <attr name="wb_minute_pointer_color" format="color"/>
+        <!--秒针颜色-->
+        <attr name="wb_second_pointer_color" format="color"/>
+    </declare-styleable>
+
 </resources>

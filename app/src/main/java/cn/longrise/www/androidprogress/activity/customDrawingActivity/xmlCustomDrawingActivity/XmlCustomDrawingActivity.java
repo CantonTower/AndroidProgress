@@ -1,4 +1,4 @@
-package cn.longrise.www.androidprogress.activity.customDrawingActivity;
+package cn.longrise.www.androidprogress.activity.customDrawingActivity.xmlCustomDrawingActivity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,9 @@ import android.widget.Button;
 
 import cn.longrise.www.androidprogress.R;
 
+/**
+ *  关于xml各属性的含义，见github文件夹
+ */
 public class XmlCustomDrawingActivity extends AppCompatActivity implements View.OnClickListener{
     private Button mbtnRingDrawing;
     private Button mbtnRectangleDrawing;

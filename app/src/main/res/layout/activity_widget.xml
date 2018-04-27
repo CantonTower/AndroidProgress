@@ -20,4 +20,19 @@
         android:text="切换界面"
         />
 
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮"
+        />
+
+    <Button
+        android:id="@+id/btn_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bar的使用"
+        android:textAllCaps="false"
+        />
+
 </LinearLayout>

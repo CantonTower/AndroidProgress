@@ -1,4 +1,4 @@
-package cn.longrise.www.androidprogress.activity.widgetActivity;
+package cn.longrise.www.androidprogress.activity.widgetActivity.switchInterface;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
