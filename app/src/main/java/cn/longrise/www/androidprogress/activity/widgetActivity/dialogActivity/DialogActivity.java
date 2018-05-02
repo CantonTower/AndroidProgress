@@ -2,6 +2,7 @@ package cn.longrise.www.androidprogress.activity.widgetActivity.dialogActivity;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -27,6 +28,7 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
     private Button mbtnSingleChoiceAlertDialog;
     private Button mbtnItemAlertDialog;
     private Button mbtnShowFullScreenDialog;
+    private Button mbtnMNProgressHUD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,7 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
         mbtnSingleChoiceAlertDialog.setOnClickListener(this);
         mbtnItemAlertDialog.setOnClickListener(this);
         mbtnShowFullScreenDialog.setOnClickListener(this);
+        mbtnMNProgressHUD.setOnClickListener(this);
     }
 
     private void initView() {
@@ -56,6 +59,7 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
         mbtnSingleChoiceAlertDialog = (Button) findViewById(R.id.btn_single_choice_alert_dialog);
         mbtnItemAlertDialog = (Button) findViewById(R.id.btn_item_alert_dialog);
         mbtnShowFullScreenDialog = (Button) findViewById(R.id.btn_show_full_screen_dialog);
+        mbtnMNProgressHUD = (Button) findViewById(R.id.btn_mn_progress_hud);
     }
 
     @Override
@@ -76,6 +80,8 @@ public class DialogActivity extends AppCompatActivity implements View.OnClickLis
             showItemAlertDialog();
         } else if (v == mbtnShowFullScreenDialog) {
             showFullScreenDialog();
+        } else if (v == mbtnMNProgressHUD) {
+            startActivity(new Intent(this, MNProgressHUD.class));
         }
     }
 

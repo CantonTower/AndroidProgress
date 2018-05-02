@@ -69,4 +69,12 @@
         android:textAllCaps="false"
         />
 
+    <Button
+        android:id="@+id/btn_mn_progress_hud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MNProgressHUD的使用"
+        android:textAllCaps="false"
+        />
+
 </LinearLayout>
