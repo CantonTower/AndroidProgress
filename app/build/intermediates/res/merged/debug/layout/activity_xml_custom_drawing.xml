@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_ring_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="环形基础绘图"
+        />
+
+    <Button
+        android:id="@+id/btn_rectangle_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="矩形基础绘图"
+        />
+
+    <Button
+        android:id="@+id/btn_oval_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆形基础绘图"
+        />
+
+    <Button
+        android:id="@+id/btn_line_drawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线条基础绘图"
+        />
+
+</LinearLayout>

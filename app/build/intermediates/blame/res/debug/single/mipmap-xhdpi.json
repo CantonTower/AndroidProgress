@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\an_doctor.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\an_doctor.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\wangqin_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\wangqin_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\lost_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\lost_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\mobile_an_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\mobile_an_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\bigspider_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\bigspider_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\kingsoft_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\kingsoft_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\lbe_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\lbe_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\baidu_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\baidu_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\nopic.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\nopic.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ruixing_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\ruixing_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\tencent_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\tencent_safe.png"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\avg_safe.png",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\avg_safe.png"
+    }
+]

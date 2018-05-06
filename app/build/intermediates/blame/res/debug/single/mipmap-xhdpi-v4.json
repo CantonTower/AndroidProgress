@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\game_langtaosha.jpg",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\game_langtaosha.jpg"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\game_feizi.jpg",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\game_feizi.jpg"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\game_jiujie.jpg",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\mipmap-xhdpi\\game_jiujie.jpg"
+    }
+]

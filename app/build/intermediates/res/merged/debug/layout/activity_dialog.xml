@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_alert_dialog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原生AlertDialog1"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_alert_dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原生AlertDialog2"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialog的自定义"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_add_editText_AlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加一个EditText的AlertDialog"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_multi_choice_alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog的复选框"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_single_choice_alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog的单选框"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_item_alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog的列表框"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_show_full_screen_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示全屏dialog"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_mn_progress_hud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MNProgressHUD的使用"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

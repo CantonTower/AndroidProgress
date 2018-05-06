@@ -43,8 +43,10 @@
         <activity android:name=".activity.databaseActivity.TraditionDataBaseActivity" />
         <activity android:name=".activity.permission.PermissionActivity" />
         <activity android:name=".activity.callSystemFunction.CallSystemFunctionActivity" />
-        <activity android:name=".activity.customDrawingActivity.codeCustomDrawing.CodeCustomDrawingActivity"/>
-        <activity android:name=".activity.widgetActivity.dialogActivity.MNProgressHUD"/>
+        <activity android:name=".activity.customDrawingActivity.codeCustomDrawing.CodeCustomDrawingActivity" />
+        <activity android:name=".activity.widgetActivity.dialogActivity.MNProgressHUD" />
+        <activity android:name=".activity.ui.UIActivity" />
+        <activity android:name=".activity.ui.ListViewActivity"></activity>
     </application>
 
 </manifest>

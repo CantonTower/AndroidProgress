@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里是自定义Dialog的显示，在开发时，可以使用它做自定义的弹出窗"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn_widget_custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击"
+        />
+</LinearLayout>

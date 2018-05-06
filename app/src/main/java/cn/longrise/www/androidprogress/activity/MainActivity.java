@@ -13,6 +13,7 @@ import cn.longrise.www.androidprogress.activity.callSystemFunction.CallSystemFun
 import cn.longrise.www.androidprogress.activity.customDrawingActivity.CustomDrawingActivity;
 import cn.longrise.www.androidprogress.activity.databaseActivity.DataBaseActivity;
 import cn.longrise.www.androidprogress.activity.permission.PermissionActivity;
+import cn.longrise.www.androidprogress.activity.ui.UIActivity;
 import cn.longrise.www.androidprogress.activity.widgetActivity.WidgetActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mbtnUseDatabase;
     private Button mbtnPermission;
     private Button mbtnCallSystemFunction;
+    private Button mbtnUI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mbtnUseDatabase = (Button) findViewById(R.id.btn_use_database);
         mbtnPermission = (Button) findViewById(R.id.btn_permission);
         mbtnCallSystemFunction = (Button) findViewById(R.id.btn_call_system_function);
+        mbtnUI = (Button) findViewById(R.id.btn_ui);
     }
 
     private void initClick() {
@@ -44,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mbtnUseDatabase.setOnClickListener(this);
         mbtnPermission.setOnClickListener(this);
         mbtnCallSystemFunction.setOnClickListener(this);
+        mbtnUI.setOnClickListener(this);
     }
 
     @Override
@@ -58,6 +62,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, DataBaseActivity.class));
         } else if (v == mbtnCallSystemFunction) {
             startActivity(new Intent(this, CallSystemFunctionActivity.class));
+        } else if (v == mbtnUI) {
+            startActivity(new Intent(this, UIActivity.class));
         }
     }
 
