@@ -1,14 +1,13 @@
 package cn.longrise.www.androidprogress.activity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import cn.longrise.www.androidprogress.R;
+import cn.longrise.www.androidprogress.activity.H5AndWebPage.H5AndWebPageActivity;
 import cn.longrise.www.androidprogress.activity.callSystemFunction.CallSystemFunctionActivity;
 import cn.longrise.www.androidprogress.activity.customDrawingActivity.CustomDrawingActivity;
 import cn.longrise.www.androidprogress.activity.databaseActivity.DataBaseActivity;
@@ -23,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mbtnPermission;
     private Button mbtnCallSystemFunction;
     private Button mbtnUI;
+    private Button mbtnH5AndWebPage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mbtnPermission = (Button) findViewById(R.id.btn_permission);
         mbtnCallSystemFunction = (Button) findViewById(R.id.btn_call_system_function);
         mbtnUI = (Button) findViewById(R.id.btn_ui);
+        mbtnH5AndWebPage = (Button) findViewById(R.id.btn_H5_webPage);
     }
 
     private void initClick() {
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mbtnPermission.setOnClickListener(this);
         mbtnCallSystemFunction.setOnClickListener(this);
         mbtnUI.setOnClickListener(this);
+        mbtnH5AndWebPage.setOnClickListener(this);
     }
 
     @Override
@@ -64,6 +66,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, CallSystemFunctionActivity.class));
         } else if (v == mbtnUI) {
             startActivity(new Intent(this, UIActivity.class));
+        } else if (v == mbtnH5AndWebPage) {
+            startActivity(new Intent(this, H5AndWebPageActivity.class));
         }
     }
 

@@ -39,24 +39,24 @@ public final class R {
         public static final int mn_dialog_view_bg = 0x7f020054;
     }
     public static final class id {
-        public static final int circularProgressBar = 0x7f0c0093;
-        public static final int dialog_view_bg = 0x7f0c0091;
-        public static final int dialog_view_bg_toast = 0x7f0c00a7;
-        public static final int dialog_window_background = 0x7f0c0090;
-        public static final int horizontalProgressBar = 0x7f0c0092;
-        public static final int imageStatus = 0x7f0c00a6;
-        public static final int ivLeftShow = 0x7f0c00a9;
-        public static final int progress_wheel = 0x7f0c0095;
-        public static final int toastBackgroundView = 0x7f0c00a8;
-        public static final int tvShow = 0x7f0c0094;
-        public static final int tvShowToast = 0x7f0c00aa;
-        public static final int tv_show = 0x7f0c0096;
+        public static final int circularProgressBar = 0x7f0c0096;
+        public static final int dialog_view_bg = 0x7f0c0094;
+        public static final int dialog_view_bg_toast = 0x7f0c00aa;
+        public static final int dialog_window_background = 0x7f0c0093;
+        public static final int horizontalProgressBar = 0x7f0c0095;
+        public static final int imageStatus = 0x7f0c00a9;
+        public static final int ivLeftShow = 0x7f0c00ac;
+        public static final int progress_wheel = 0x7f0c0098;
+        public static final int toastBackgroundView = 0x7f0c00ab;
+        public static final int tvShow = 0x7f0c0097;
+        public static final int tvShowToast = 0x7f0c00ad;
+        public static final int tv_show = 0x7f0c0099;
     }
     public static final class layout {
-        public static final int mn_progress_bar_dialog_layout = 0x7f040036;
-        public static final int mn_progress_dialog_layout = 0x7f040037;
-        public static final int mn_status_dialog_layout = 0x7f040039;
-        public static final int mn_toast_layout = 0x7f04003a;
+        public static final int mn_progress_bar_dialog_layout = 0x7f040038;
+        public static final int mn_progress_dialog_layout = 0x7f040039;
+        public static final int mn_status_dialog_layout = 0x7f04003b;
+        public static final int mn_toast_layout = 0x7f04003c;
     }
     public static final class string {
         public static final int app_name = 0x7f060021;

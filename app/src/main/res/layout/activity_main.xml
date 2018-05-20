@@ -46,4 +46,11 @@
         android:layout_height="wrap_content"
         android:text="UI"
         />
+
+    <Button
+        android:id="@+id/btn_H5_webPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H5和网页"
+        />
 </LinearLayout>

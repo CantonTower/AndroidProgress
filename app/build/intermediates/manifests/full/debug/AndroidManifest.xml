@@ -56,7 +56,9 @@
         <activity android:name="cn.longrise.www.androidprogress.activity.customDrawingActivity.codeCustomDrawing.CodeCustomDrawingActivity" />
         <activity android:name="cn.longrise.www.androidprogress.activity.widgetActivity.dialogActivity.MNProgressHUD" />
         <activity android:name="cn.longrise.www.androidprogress.activity.ui.UIActivity" />
-        <activity android:name="cn.longrise.www.androidprogress.activity.ui.ListViewActivity" />
+        <activity android:name="cn.longrise.www.androidprogress.activity.ui.listView.ListViewActivity" />
+        <activity android:name="cn.longrise.www.androidprogress.activity.ui.menu.MenuActivity" />
+        <activity android:name="cn.longrise.www.androidprogress.activity.H5AndWebPage.H5AndWebPageActivity" />
     </application>
 
 </manifest>

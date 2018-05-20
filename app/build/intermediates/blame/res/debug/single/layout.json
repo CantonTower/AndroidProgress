@@ -168,6 +168,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f10151ea286af6ef8c3bccbafdeb0de0a3c3abf\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_h5_and_web_page.xml",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\layout\\activity_h5_and_web_page.xml"
+    },
+    {
         "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f10151ea286af6ef8c3bccbafdeb0de0a3c3abf\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
@@ -210,6 +214,10 @@
     {
         "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\7f10151ea286af6ef8c3bccbafdeb0de0a3c3abf\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\src\\main\\res\\layout\\activity_menu.xml"
     },
     {
         "merged": "D:\\project\\AndroidProgress\\AndroidProgress\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xml_custom_drawing.xml",

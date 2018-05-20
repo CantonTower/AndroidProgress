@@ -46,7 +46,9 @@
         <activity android:name=".activity.customDrawingActivity.codeCustomDrawing.CodeCustomDrawingActivity" />
         <activity android:name=".activity.widgetActivity.dialogActivity.MNProgressHUD" />
         <activity android:name=".activity.ui.UIActivity" />
-        <activity android:name=".activity.ui.ListViewActivity"></activity>
+        <activity android:name=".activity.ui.listView.ListViewActivity" />
+        <activity android:name=".activity.ui.menu.MenuActivity" />
+        <activity android:name=".activity.H5AndWebPage.H5AndWebPageActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package cn.longrise.www.androidprogress.activity.ui;
+package cn.longrise.www.androidprogress.activity.ui.listView;
 
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManife
 	android:name
 		ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:10:5-50:19
+ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:10:5-52:19
 MERGED from [com.github.maning0303:mndialoglibrary:unspecified] D:\project\AndroidProgress\AndroidProgress\mndialoglibrary\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\7f10151ea286af6ef8c3bccbafdeb0de0a3c3abf\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\35b53fc9d03665c8dc9bd5c790c5f0cc80978fe3\output\AndroidManifest.xml:29:5-20
@@ -160,10 +160,18 @@ activity#cn.longrise.www.androidprogress.activity.ui.UIActivity
 ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:48:9-60
 	android:name
 		ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:48:19-57
-activity#cn.longrise.www.androidprogress.activity.ui.ListViewActivity
+activity#cn.longrise.www.androidprogress.activity.ui.listView.ListViewActivity
 ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:49:9-75
 	android:name
-		ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:49:19-63
+		ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:49:19-72
+activity#cn.longrise.www.androidprogress.activity.ui.menu.MenuActivity
+ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:50:9-67
+	android:name
+		ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:50:19-64
+activity#cn.longrise.www.androidprogress.activity.H5AndWebPage.H5AndWebPageActivity
+ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:51:9-89
+	android:name
+		ADDED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml:51:19-77
 uses-sdk
 INJECTED from D:\project\AndroidProgress\AndroidProgress\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.github.maning0303:mndialoglibrary:unspecified] D:\project\AndroidProgress\AndroidProgress\mndialoglibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
